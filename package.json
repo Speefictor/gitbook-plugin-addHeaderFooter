@@ -1,0 +1,55 @@
+{
+  "name": "gitbook-plugin-addheaderfooter",
+  "version": "0.1.0",
+  "description": "Add customer header & footer for gitBook website.",
+  "main": "index.js",
+  "engines": {
+    "gitbook": ">1.x.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Speefictor/gitbook-plugin-addHeaderFooter.git"
+  },
+  "keywords": [
+    "gitBook",
+    "header",
+    "footer"
+  ],
+  "gitbook": {
+    "properties": {
+      "header": {
+        "js": {
+          "type": "array",
+          "description": "List of JavaScript files to include",
+          "default": []
+        },
+        "css": {
+          "type": "array",
+          "description": "List of CSS files to include",
+          "default": []
+        }
+      },
+      "footer": {
+        "js": {
+          "type": "array",
+          "description": "List of JavaScript files to include",
+          "default": []
+        },
+        "css": {
+          "type": "array",
+          "description": "List of CSS files to include",
+          "default": []
+        }
+      }
+    }
+  },
+  "author": "cunji.g@163.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Speefictor/gitbook-plugin-addHeaderFooter/issues"
+  },
+  "homepage": "https://github.com/Speefictor/gitbook-plugin-addHeaderFooter#readme"
+}

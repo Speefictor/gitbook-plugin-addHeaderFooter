@@ -1,0 +1,28 @@
+{% extends template.self %}
+
+{% block style %}
+{{ super() }}
+<style>
+    header{
+        color: red;
+    }
+</style>
+{% endblock %}
+
+{% hint style='info' %}
+Important info: this note needs to be highlighted
+{% endhint %}
+
+
+{% block body %}
+
+{{ super() }}
+{% endblock %}
+
+
+{% block javascript %}
+{{ super() }}
+<script>
+    console.log("hello;;;;")
+</script>
+{% endblock %}
